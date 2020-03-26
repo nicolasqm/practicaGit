@@ -9,28 +9,13 @@ public class Jarra {//variables de instancia
 	}
 	this.capacidad=capacidadInicial;
 	}
-	public int capacidad(){
-		return this.capacidad;
-	}
-	public int cantidad(){
-		return this.cantidad;
-	}
+	
 	// Aquí vendrán después los métodos creados en la siguiente fase
 	public void metodoComunitario(){
 	// Comentario incluido para pruebas
 	System.out.println("Aqui escribimos todos");
 	}
 	
-	publicvoid llenaDesde(Jarra j){
-        while((this.cantidad<this.capacidad)&&(j.cantidad>0)){
-            this.cantidad++;
-            j.cantidad--;
-        }
-	}
-    publicString toString(){
-        return ("("+this.capacidad+","+this.cantidad+")");
-	}
-
 	public Object clone() throws CloneNotSupportedException {
 		return (Jarra) super.clone();
 	}
