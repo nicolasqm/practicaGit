@@ -16,13 +16,13 @@ public class Jarra {//variables de instancia
 	System.out.println("Aqui escribimos todos");
 	}
 	
-	publicvoid llenaDesde(Jarra j){
+	public void llenaDesde(Jarra j){
         while((this.cantidad<this.capacidad)&&(j.cantidad>0)){
             this.cantidad++;
             j.cantidad--;
         }
 	}
-    publicString toString(){
+    public String toString(){
         return ("("+this.capacidad+","+this.cantidad+")");
 	}
 }
