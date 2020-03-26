@@ -18,7 +18,8 @@ public class Jarra {//variables de instancia
 	// Aquí vendrán después los métodos creados en la siguiente fase
 	public void metodoComunitario(){
 	// Comentario incluido para pruebas
-	System.out.println("Aqui escribimos todos");
+	System.out.println("Aqui escribimos todos")
+	System.out.println("Nicolás Quintana Marín");
 	}
 
 	public bool llena(){
