@@ -20,14 +20,22 @@ public class Jarra {//variables de instancia
 	// Comentario incluido para pruebas
 	System.out.println("Aqui escribimos todos");
 	}
+
+	public bool llena(){
+	return this.cantidad=this.capacidad;
+	}
 	
-	publicvoid llenaDesde(Jarra j){
+	public bool vacia(){
+	return this.cantidad=0;
+	}
+
+	public void llenaDesde(Jarra j){
         while((this.cantidad<this.capacidad)&&(j.cantidad>0)){
             this.cantidad++;
             j.cantidad--;
         }
 	}
-    publicString toString(){
+    public String toString(){
         return ("("+this.capacidad+","+this.cantidad+")");
 	}
 
@@ -46,3 +54,4 @@ public class Jarra {//variables de instancia
 	return eqs;
 	}
 }
+
