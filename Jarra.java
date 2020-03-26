@@ -19,13 +19,13 @@ public class Jarra {//variables de instancia
 	public void metodoComunitario(){
 	// Comentario incluido para pruebas
 	System.out.println("Aqui escribimos todos");
+	System.out.println("Alfonso Salas Perez");
 	}
 
 	public bool llena(){
 	return this.cantidad=this.capacidad;
 	}
 	
-=======
 	public bool vacia(){
 	return this.cantidad=0;
 	}
